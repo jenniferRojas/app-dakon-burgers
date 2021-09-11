@@ -23,8 +23,8 @@ const Products = ({ heading, data }) => {
               <ProductImg src={product.img} alt={product.alt} />
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
-                <ProductDesc>{product.desc}</ProductDesc>
-                <ProductPrice>{product.price}</ProductPrice>
+                <ProductDesc>{product.Desc}</ProductDesc>
+                <ProductPrice>{product.Price}</ProductPrice>
                 <ProductButton>{product.button}</ProductButton>
               </ProductInfo>
             </ProductCard>

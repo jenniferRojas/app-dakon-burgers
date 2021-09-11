@@ -1,29 +1,35 @@
 import React from "react";
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router } 
-from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch, Route
+  } from "react-router-dom";
+
 import { GlobalStyle } from "./globalstyles";
-import Body from './components/Body';
-import Products from './components/Products';
-import { productData, productDataTwo } from './components/Products/data';
-import Feature from './components/Feature';
+import { productData, productDataTwo, productDatathree } from './components/Products/Data.js';
 import Footer from './components/Footer';
-
-
-
-
+import Hamburgers from './components/Hamburgers';
+import Home from "./components/Home";
 function App() {
+  console.log (productData)
+  console.log (productDataTwo)
+  console.log (productDatathree)
   return (
     <Router>
       <GlobalStyle/>
       <Navbar />
-      <Body />
-      <Products heading='FAVORITAS DAKON' data={productData} />
-      <Feature />
+     
+      <Switch/>
+      <Route path='/' exact component={Home}/>
+      <Route path='/HAMBURGUESAS'  component={Hamburgers} />
       
-      <Products heading='LA MEJOR COMPAÑIA' data={productDataTwo} />
-     <Footer/>
-    </Router>
+       
+       
+      <Switch/>
+      
+    
+      <Footer/>
+      </Router>
   );
 }
 

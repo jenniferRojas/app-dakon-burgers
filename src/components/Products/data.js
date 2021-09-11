@@ -4,6 +4,11 @@ import product3 from './images/combo_chorihamburguesa.jpg'
 import product5 from './images/cerveza_corona.jpg'
 import product6 from './images/cerveza_clubcolombia.jpg'
 import product7 from './images/cocacola.jpg'
+import product8 from './images/CHORI HAMBURGUESA DAKON .jpg'
+import product9 from './images/SUPER TRIPLE DAKON .jpg'
+import product10 from './images/SUPER CHORIHAMBURGUESA DAKON .jpg'
+import product11 from './images/TRES CARNES DAKON .jpg'
+
 
 export const productData = [
 
@@ -75,8 +80,40 @@ ID: 6
 ]
 
 export const productDatathree= [
+  {
+
+
+    img: Product1,
+    alt : 'Combo Hamburguesa',
+    name:'COMBO HAMBURGUESA DAKON',
+    Desc: ' Pan TIPO BRIOCHE, carne 160 GR 100% res, cebolla, queso fundido, lechuga, tomate, papas a la francesa 160 GR, gaseosa pet 250 ' ,
+    Price:'$16.000' ,
+    button: 'Añadir al carrito',
+    ID: 1
+    
+        },
+    {
+         
+    img: product2,
+    alt:' Combo Hamburguesa',
+    name:'COMBO HAMBURGUESA SUPER DAKON',
+    Desc:'Pan  TIPO BRIOCHE,  doble carne 320 GR 100% res, cebolla, queso fundido, lechuga, tomate, papas a la francesa 160 GR, gaseosa pet 250',
+    Price:'$20.000',
+    button: 'Añadir al carrito',
+    ID: 2
+    },
+    {
+    img: product3,
+    alt:' Combo Hamburguesa',
+    name:'COMBO CHORI HAMBURGUESA DAKON   ',
+    Desc:'Pan TIPO BRIOCHE, carne 160 GR 100% res,  chorizo santa rosano, cebolla , queso fundido, lechuga, tomate, papas a la francesa 160 GR, gaseosa pet 250',
+    Price:'$20.000',
+    button: 'Añadir al carrito',
+    ID: 3
+    },
 
   {
+img: product8,
 alt :'Hamburguesa',
 name:'CHORI HAMBURGUESA DAKON',
 Desc: 'Pan TIPO BRIOCHE, carne 160 GR 100% res,  chorizo santa rosano, cebolla, queso fundido, lechuga, tomate' ,
@@ -85,6 +122,7 @@ Price:'$17.000' ,
 ID: 7
     },
 {
+img: product9,
 alt :'Hamburguesa',
 name:'SUPER TRIPLE DAKON',
 Desc: 'Pan  TIPO BRIOCHE,  TRIPLE CARNE  carne 480 GR 100% res, cebolla, TRIPLE queso fundido, lechuga, tomate' ,
@@ -94,6 +132,8 @@ ID: 8
   },
 
 {
+
+img: product10,
 alt :'Hamburguesa',
 name:'SUPER CHORIHAMBURGUESA DAKON',
 Desc: 'Pan  TIPO BRIOCHE,  DOBLE  CARNE  carne 320 GR 100% res, CHORIZO SANTA ROSANO ,  cebolla, TRIPLE queso fundido, lechuga, tomate.' ,
@@ -103,6 +143,7 @@ ID: 9
       },
 
       {
+img: product11,
 alt :'Hamburguesa',
 name:'RES CARNES DAKON',
 Desc: 'Pan  TIPO BRIOCHE,  CARNE  carne  160  GR 100% res, POLLO 160 GR , CHORIZO SANTA ROSANO ,  cebolla, TRIPLE' ,
@@ -111,8 +152,43 @@ button: 'Añadir al carrito',
 ID: 10
 
               },
+            ]
 
- {
+export const productDatafour= [
+
+{
+img: Product1,
+alt : 'Combo Hamburguesa',
+name:'COMBO HAMBURGUESA DAKON',
+Desc: ' Pan TIPO BRIOCHE, carne 160 GR 100% res, cebolla, queso fundido, lechuga, tomate, papas a la francesa 160 GR, gaseosa pet 250 ' ,
+Price:'$16.000' ,
+button: 'Añadir al carrito',
+ID: 1
+
+    },
+{
+     
+img: product2,
+alt:' Combo Hamburguesa',
+name:'COMBO HAMBURGUESA SUPER DAKON',
+Desc:'Pan  TIPO BRIOCHE,  doble carne 320 GR 100% res, cebolla, queso fundido, lechuga, tomate, papas a la francesa 160 GR, gaseosa pet 250',
+Price:'$20.000',
+button: 'Añadir al carrito',
+ID: 2
+},
+{
+img: product3,
+alt:' Combo Hamburguesa',
+name:'COMBO CHORI HAMBURGUESA DAKON   ',
+Desc:'Pan TIPO BRIOCHE, carne 160 GR 100% res,  chorizo santa rosano, cebolla , queso fundido, lechuga, tomate, papas a la francesa 160 GR, gaseosa pet 250',
+Price:'$20.000',
+button: 'Añadir al carrito',
+ID: 3
+},
+
+
+                {
+
 alt :'Combo Hamburguesa',
 name:'COMBO HAMBURGUESA DAKON POLLO   ',
 Desc: 'Pan TIPO BRIOCHE, pollo 140 GR , cebolla, queso fundido, lechuga, tomate, papas a la francesa 160 GR, gaseosa pet 250' ,
@@ -132,14 +208,159 @@ ID: 12
 
 {
 alt :'Combo Hamburguesa',
-name:'COMBO SUPER TRIPLE DAKON ',
-Desc: 'Pan  TIPO BRIOCHE,  TRIPLE CARNE  carne 480 GR 100% res, cebolla, TRIPLE queso fundido, lechuga, tomate, papas a la francesa 160 GR, GASEOSA PET 250' ,
+name:'COMBO SUPER CHORIHAMBURGUESA DAKON     ',
+Desc: 'Pan  TIPO BRIOCHE,  DOBLE  CARNE  carne 320 GR 100% res, CHORIZO SANTA ROSANO ,  cebolla, TRIPLE queso fundido, lechuga, tomate, papas a la francesa 160 GR, GASEOSA PET 250' ,
 Price:'$30.000' ,
 button: 'Añadir al carrito',
-ID: 12
+ID: 13
 },
-    
+
+{
+  alt :'Combo Hamburguesa',
+  name:'COMBO SUPER TRIPLE DAKON ',
+  Desc: 'Pan  TIPO BRIOCHE,  TRIPLE CARNE  carne 480 GR 100% res, cebolla, TRIPLE queso fundido, lechuga, tomate, papas a la francesa 160 GR, GASEOSA PET 250' ,
+  Price:'$30.000' ,
+  button: 'Añadir al carrito',
+  ID: 13
+  },
 
 ]
- 
+  
+  export const productDatafive= [
+
+
+
+  {
+  alt :'Chorizos',
+  name:'CHORI PERRO DAKON     ',
+  Desc: 'Pan, chorizo santa rosano, cebolla , queso fundido, a cabello de ángel' ,
+  Price:'$12.000' ,
+  button: 'Añadir al carrito',
+  ID: 14
+  },
+  {
+  alt :'Chorizos',
+  name:'CHORI PAPA DAKON     ',
+  Desc: 'papa a la francesa 160 GR, chorizo santa rosano, cebolla, queso fundido, salsa dakon' ,
+  Price:'$13.000' ,
+  button: 'Añadir al carrito',
+  ID: 15
+  },  
+  
+  
+  ]
+  
+  export const productDatasix= [
+{
+  alt :'Especiales',
+  name:'PICADA DAKON (2 PERSONAS)         ',
+  Desc: 'chorizo santa rosano x4, papa a la francesa 320 GR, empanada dakon x4, limón' ,
+  Price:'$29.000' ,
+  button: 'Añadir al carrito',
+  ID: 16
+  }, 
+
+
+{
+  alt :'Especiales',
+  name:'SUPER PICADA DAKON         ',
+  Desc: 'chorizo santa rosano x4,  costillas de cerdo por 400 gr, papa a la francesa320 GR, empanada dakon x4, limón' ,
+  Price:'$40.000' ,
+  button: 'Añadir al carrito',
+  ID: 17
+  }, 
+{
+  alt :'Especiales',
+  name:'SUPER PICADA DAKON         ',
+  Desc: 'chorizo santa rosano x4,  costillas de cerdo por 400 gr, papa a la francesa320 GR, empanada dakon x4, limón' ,
+  Price:'$40.000' ,
+  button: 'Añadir al carrito',
+  ID: 18
+  }, 
+{
+  alt :'Especiales',
+  name:'COSTILLAS DAKON ',
+  Desc: '400 GR costillas de cerdo ahumadas, papa a la francesa 160 GR' ,
+  Price:'$22.000' ,
+  button: 'Añadir al carrito',
+  ID: 19
+  }, 
+{
+alt :'Especiales',
+name:'MAZORCADA DAKON ',
+Desc: 'Maiz tierno, 140gr pollo, 160gr chorizo, cebolla grille, papa cebello de angel, salsa de la casa, queso doble crema gratinada.' ,
+Price:'$20.000' ,
+button: 'Añadir al carrito',
+ID: 20
+}, 
+]
+
+export const productDataseven= [
+{
+alt :'Bebidas',
+name:'COCA COLA  ',
+Desc: '400 ml' ,
+Price:'$2.500' ,
+button: 'Añadir al carrito',
+ID: 21
+}, 
+
+{
+alt :'Bebidas',
+name:'COCA COLA SIN AZÚCAR ',
+Desc: '250 ml' ,
+Price:'$2.500' ,
+button: 'Añadir al carrito',
+ID: 21
+},
+{
+alt :'Bebidas',
+name:'QUATRO ',
+Desc: '400 ml' ,
+Price:'$2.500' ,
+button: 'Añadir al carrito',
+ID: 23
+},
+
+{
+  alt :'Bebidas',
+  name:'SPRITE ',
+  Desc: '250 ml' ,
+  Price:'$2.500' ,
+  button: 'Añadir al carrito',
+  ID: 24
+  }, 
+{
+alt :'Bebidas',
+name:'AGUA BOTELLA ',
+Desc: '250 ml' ,
+Price:'$2.000' ,
+button: 'Añadir al carrito',
+ID: 25
+    },
+    {
+alt :'Bebidas',
+name:'AGUA BOTELLA CON GAS',
+Desc: '250 ml' ,
+Price:'$2.000' ,
+button: 'Añadir al carrito',
+ID: 26
+      }, 
+{
+alt :'Bebidas',
+name:'CERVEZA POKER',
+Desc: '330 ml' ,
+Price:'$3.500' ,
+button: 'Añadir al carrito',
+ID: 27
+},
+{
+  alt :'Bebidas',
+  name:'CERVEZA CLUB COLOMBIA',
+  Desc: '330 ml' ,
+  Price:'$4.000' ,
+  button: 'Añadir al carrito',
+  ID: 28
+      }, 
+]
     
