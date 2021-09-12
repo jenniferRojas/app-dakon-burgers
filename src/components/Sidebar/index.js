@@ -17,10 +17,10 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarMenu>
         <SidebarLink to='/HAMBURGUESAS'>Hamburguesas</SidebarLink>
-        <SidebarLink to='/'>Combos Hamburguesas</SidebarLink>
-        <SidebarLink to='/'>Chorizos</SidebarLink>
-        <SidebarLink to='/'>Especiales</SidebarLink>
-        <SidebarLink to='/'>Bebidas</SidebarLink>
+        <SidebarLink to='/CombosHamburguesas'>Combos Hamburguesas</SidebarLink>
+        <SidebarLink to='/Chorizos'>Chorizos</SidebarLink>
+        <SidebarLink to='/Especiales'>Especiales</SidebarLink>
+        <SidebarLink to='/Bebidas'>Bebidas</SidebarLink>
       </SidebarMenu>
       
     </SidebarContainer>

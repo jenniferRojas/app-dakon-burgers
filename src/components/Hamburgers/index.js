@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar';
-//import items card home
+
 import Sidebar from '../Sidebar';
 import {
     HamburgerContainer,
